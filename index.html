@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renjie - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Renjie Wu"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Renjie Wu">Renjie Wu</h1>
+
+            <p class="title">Business Analysis | Data Analysis</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:wurenjie2021@gmail.com" class="contact-link"
+                  >wurenjie2021@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+3530892556509" class="contact-link"
+                  >+353 (089)255 0000</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1994-02-17">1994-02-17</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Cork, Ireland</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://twitter.com/ruth28715530?s=21&t=NGU6PhpzRM7NaQL81IfemQ"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://instagram.com/renjie_94?igshid=NTc4MTIwNjQ2YQ=="
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+                      </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a seasoned senior account manager with over four years of experience in pharmaceutical sales and marketing.
+               My academic background includes a bachelor's degree in logistics management,
+               and I have successfully completed a master's degree in information systems for business performance at University College Cork. 
+               This academic pursuit has equipped me with valuable data analysis and business analysis skills.
+            </p>
+
+            <p>
+              My dedication to data-driven decision-making and 
+              business analysis contributed significantly to my success in this role. 
+               consistently achieved and surpassed sales targets while maintaining 
+               an impressive customer satisfaction rate. My passion for enhancing 
+               the quality of life for both patients and healthcare professionals 
+               drives me to bring diverse perspectives and experiences to any team I join.
+                I am committed to leveraging my education and experience to excel in roles
+                 that require a strong foundation in data and business analysis.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web page</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Visualization Analysis</h4>
+
+                  <p class="service-item-text">
+                    High-quality data visualization for 4 projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Business Analysis</h4>
+
+                  <p class="service-item-text">
+                    Acquired proficiencies in identifying and fulfilling 
+                    the requisites of both organizational and project 
+                    demands through coursework.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Jewell"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Vicky
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I collaborated with Renjie on analyzing 2000 tweets, 
+                      and I was deeply impressed by her proficiency in using R language and Tableau.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Ankit"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Xiao
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have worked at a pizza shop with Renjie, and she has
+                      been a great teammate. She is excellent at collaborating
+                      with the team and handles pressure well. She also uplifts
+                      her colleagues and inspires them.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Sushel"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Sushel
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have worked at a pizza shop with Renjie, and she has
+                      been a great teammate. She is excellent at collaborating
+                      with the team and handles pressure well. She also uplifts
+                      her colleagues and inspires them.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Prouje"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Ciara
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I've worked with Renjie on a team project designing 
+                      EHR data structures, and her problem-solving skills 
+                      and structured thinking are really clear.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Jewell"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Jewell</h4>
+
+                <time datetime="2021-06-14">14 June, 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    I have worked at a pizza shop with Renjie, and she has been
+                    a great teammate. She is excellent at collaborating with the
+                    team and handles pressure well. She also uplifts her
+                    colleagues and inspires them.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University College Cork</h4>
+
+                <span>2022 — 2023</span>
+
+                <p class="timeline-text">
+                  <span></span>
+                    Major: Master of Information System for Business Performance
+                    program.
+                  </span>
+                  I have acquired professional practice skills, ethical
+                  guidelines, IT procurement and project management, IT
+                  governance and compliance, support of information systems for
+                  organizational performance, enterprise business intelligence,
+                  electronic business models and systems, business analysis
+                  requirements and techniques, application design, database
+                  analysis and design, as well as management of information
+                  systems databases. This educational background equips me with
+                  the necessary skills and knowledge to pursue a career in
+                  coding. I will be able to understand business requirements,
+                  perform application design, and possess the capability to
+                  analyze and design databases. These skills are crucial for
+                  working in coding and development roles. Additionally, my
+                  coursework encompasses other areas of IT knowledge, enabling
+                  me to apply a holistic approach and solve problems effectively
+                  in the workplace.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Wuhan Textile University</h4>
+
+                <span>2013 — 2017</span>
+
+                <p class="timeline-text">
+                  <span
+                    >Major: Bachelor of Management in Logistics Management</span
+                  >
+                  I am a professional with a Bachelor's degree 
+                  in Logistics Management, possessing a strong 
+                  foundation in mathematics, including advanced 
+                  calculus and probability theory, as well as a 
+                  solid understanding of basic database and website
+                   design concepts. I am passionate about website design 
+                   and eager to develop and showcase my skills in this field.
+                </p>
+              </li>
+
+              
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Work Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Pharmaceutical sales representative</h4>
+
+                <span>2018 — 2021</span>
+
+                <p class="timeline-text">
+                  I have accumulated 4 years of experience in the 
+                  pharmaceutical industry, during which I had the 
+                  privilege of working with renowned companies such
+                   as Sanofi. Throughout my tenure, I consistently 
+                   delivered outstanding performance, surpassing 
+                   targets with a consistent completion rate 
+                   exceeding 10%. This experience has honed my 
+                   communication and teamwork skills, enabling
+                    me to excel in collaborative environments.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title"> Business Assistant</h4>
+
+                <span>2017 — 2018</span>
+
+                <p class="timeline-text">
+                  Handled the problems in Chinese and English telephone
+                   calls and video conferences;Translated the unresolved 
+                   problems and gave feedback to engineer after receiving
+                    user's error, and conveyed the engineer's solutions.
+                </p>
+              </li>
+
+              
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web page design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Visualization Analysis</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">R language</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Business Analysis</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO 
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+           
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web page design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Business analysis</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Data visualization analysis</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web page design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Business analysis</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Data visualization analysis</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+            <li class="project-item active" 
+                data-filter-item 
+                data-category="data visualization analysis">
+            <a href="./assets/images/Project-1.png" target="_blank">
+            <figure class="project-img">
+            <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+           </div>
+            <img src="./assets/images/Project-1.png" 
+            alt="analysis of patient waiting times in Ireland" 
+            loading="lazy" />
+           </figure>
+
+    <h3 class="project-title">Analysis of patient waiting times in Ireland(excel)</h3>
+
+    <p class="project-category">Data visualization analysis</p>
+  </a>
+</li>
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization analysis"
+              >
+               <a href="./assets/images/project-2.png" target="_blank"> 
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="tweets"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Data analysis of 20,000 tweets(R language& Tableau)</h3>
+                  <p class="project-category">Data visualization analysis</p>
+                </a>
+              </li>
+              
+
+              <li class="project-item active" 
+              data-filter-item 
+              data-category="web page design">
+            <a href="https://www.figma.com/proto/u7RMnmonr4j39fIXpUu19k/personas?node-id=114-4&starting-point-node-id=114%3A4" 
+            target="_blank">
+            <figure class="project-img">
+           <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+           </div>
+        <img src="./assets/images/project-3.jpg" alt="The spicy of life" loading="lazy" />
+         </figure>
+
+    <h3 class="project-title">The Spicy of Life</h3>
+
+    <p class="project-category">Web page design</p>
+  </a>
+</li>
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="business analysis"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Collaborative Industry Research</h3>
+
+                  <p class="project-category">Business analysis</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web page design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="Create a website prototype using Balsamiq"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Create a website prototype using Balsamiq</h3>
+
+                  <p class="project-category">Web page design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web page design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="Create a mobile prototype using Balsamiq"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Create a mobile prototype using Balsamiq</h3>
+
+                  <p class="project-category">Web page design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization analysis"
+              >
+                  <a href="./assets/images/project-7.png" target="_blank"> 
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="Coca-Cola company key KPIs analysis"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Coca-Cola company key KPIs analysis (R language& Tableau)</h3>
+
+                  <p class="project-category">Data visualization analysis</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization analysis"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="Partial original R language code"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Partial original R language code</h3>
+
+                  <p class="project-category">Data visualization analysis</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+       
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
